@@ -6,10 +6,7 @@ import java.util.Scanner;
  */
 public class AuthenticationSystem
 {
-//    private String userName;
-//    private String userPass;
-//    private Boolean checkLogIn;
-//    private Integer index = 1;
+
     private String fileName = "credentials.txt";
 
     public static void main(String args[])
@@ -26,15 +23,6 @@ public class AuthenticationSystem
         String userPassWord = scrn.nextLine();
 
         Authentication auth = new Authentication(fileLoader, userName, userPassWord, scrn);
-       // auth.Login();
-        //auth.Password(auth.getUserPassword());
-       // fileLoader.LoadFile(authSystem.fileName);
-        //auth.Validate();
-        //System.out.println();
-       // String jobTile = auth.getJobTitle();
-        //String [] jobFile = fileLoader.LoadFile(jobTile+".txt");
-        //String jobOutput = fileLoader.ConvertFile(jobFile);
-       // System.out.println(auth.getConvertFile());
-        //test
+     
     }
 }
